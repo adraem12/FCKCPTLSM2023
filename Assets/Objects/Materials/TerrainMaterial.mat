@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirtTex:
-        m_Texture: {fileID: 2800000, guid: af970f5b734021141b2fbc776dfd5076, type: 3}
+        m_Texture: {fileID: 2800000, guid: a44e51bfd51193c488a1322cd4e56193, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassTex:
-        m_Texture: {fileID: 2800000, guid: af970f5b734021141b2fbc776dfd5076, type: 3}
+        m_Texture: {fileID: 2800000, guid: fbdfba851fef3c349ab4b908e5543339, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -82,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RockTex:
-        m_Texture: {fileID: 2800000, guid: af970f5b734021141b2fbc776dfd5076, type: 3}
+        m_Texture: {fileID: 2800000, guid: fbdfba851fef3c349ab4b908e5543339, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2DLOD_0595e6ec99f8404e8b64f00efe445159_Texture_1:
@@ -98,7 +98,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SnowTex:
-        m_Texture: {fileID: 2800000, guid: af970f5b734021141b2fbc776dfd5076, type: 3}
+        m_Texture: {fileID: 2800000, guid: fbdfba851fef3c349ab4b908e5543339, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -155,6 +155,7 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _TexTiling: 0.2
+    - _Tiling: 0.04
     - _WaterHeight: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -164,7 +165,7 @@ Material:
     - _DarkColor: {r: 0, g: 0, b: 0, a: 0}
     - _DirtColor: {r: 0.8773585, g: 0.51864624, b: 0.31866318, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GrassColor: {r: 0.44347277, g: 0.8113207, b: 0.39417946, a: 0}
+    - _GrassColor: {r: 0.28571656, g: 0.6320754, b: 0.24150053, a: 0}
     - _LitColor: {r: 1, g: 1, b: 1, a: 1}
     - _RockColor: {r: 0.24528292, g: 0.23486996, b: 0.23486996, a: 0}
     - _SnowColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}

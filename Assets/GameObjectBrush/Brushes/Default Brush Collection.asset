@@ -22,9 +22,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -43,9 +43,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -64,9 +64,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -85,9 +85,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -106,9 +106,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -128,9 +128,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -150,9 +150,9 @@ MonoBehaviour:
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 5
-    brushSize: 9.29
-    minScale: 0.2
-    maxScale: 0.3
+    brushSize: 15
+    minScale: 2.5
+    maxScale: 3
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
