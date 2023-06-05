@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2d43b70625c942b4db6ffe1cce968537, type: 3}
+        m_Texture: {fileID: 2800000, guid: 28dcb299484e19d458120877b7556ea7, type: 3}
         m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2DLOD_0595e6ec99f8404e8b64f00efe445159_Texture_1:
@@ -56,9 +56,9 @@ Material:
     - _QueueOffset: 0
     - _TexTiling: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.6226415, g: 0.43743974, b: 0.14391243, a: 1}
     - _DarkColor: {r: 0, g: 0, b: 0, a: 0}
-    - _LitColor: {r: 0.8207547, g: 0.62842923, b: 0.43747774, a: 0}
+    - _LitColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2033755655067645049
 MonoBehaviour:
