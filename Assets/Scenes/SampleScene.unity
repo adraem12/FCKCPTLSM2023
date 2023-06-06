@@ -26,19 +26,19 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 35464e5844d6447468fed48cbf3e0cb9, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_DefaultReflectionResolution: 256
+  m_ReflectionBounces: 2
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1302956116}
-  m_IndirectSpecularColor: {r: 0.17375427, g: 0.21724111, b: 0.29937825, a: 1}
+  m_IndirectSpecularColor: {r: 0.29389825, g: 0.341135, b: 0.35322228, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -434,6 +434,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1265667120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+  m_PrefabInstance: {fileID: 1733919936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1265667122 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5880343393059758284, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+  m_PrefabInstance: {fileID: 1733919936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1302956114
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,14 +551,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302956114}
-  m_LocalRotation: {x: 0.7809757, y: 0, z: 0, w: 0.6245614}
+  m_LocalRotation: {x: -0.33245394, y: -0.6169717, z: 0.32233927, w: -0.63633156}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 102.7, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.17, y: -271.77, z: 0}
 --- !u!1 &1305206271
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,8 +640,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1265667120}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -649,6 +660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 8
   turnSpeed: 6
+  waterRipples: {fileID: 1265667122}
 --- !u!54 &1305206277
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -974,7 +986,8 @@ GameObject:
   - component: {fileID: 1609757203}
   - component: {fileID: 1609757202}
   - component: {fileID: 1609757201}
-  m_Layer: 0
+  - component: {fileID: 1609757204}
+  m_Layer: 4
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,6 +1059,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1609757204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609757199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 0.001, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1733919936
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1305206275}
+    m_Modifications:
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000038941437
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758287, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880343393059758290, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
+      propertyPath: m_Name
+      value: WaterRipples
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cacad7b879ad1d54c83303bbccdea03f, type: 3}
 --- !u!1001 &1770650970
 PrefabInstance:
   m_ObjectHideFlags: 0
